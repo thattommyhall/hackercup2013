@@ -1,13 +1,12 @@
 # hackercup2013
 
-A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+Run lein tests to test, run each module after downloading the input file to process it.
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Tom Hall
 
 Distributed under the Eclipse Public License, the same as Clojure.
