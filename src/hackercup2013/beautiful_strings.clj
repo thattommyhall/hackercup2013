@@ -1,3 +1,5 @@
+; http://www.facebook.com/hackercup/problems.php?pid=475986555798659&round=185564241586420
+
 (ns hackercup2013.beautiful-strings
   (:use hackercup2013.core)
   (:require [clojure.string :as str]))
