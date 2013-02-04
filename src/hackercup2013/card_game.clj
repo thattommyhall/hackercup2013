@@ -18,8 +18,7 @@
                                  (drop 1
                                        (line-seq input-file) ))))]
         (do (.write output-file output-line)
-            (print output-line)
-            ))))
+            (print output-line)))))
 
 (def factorial
   (memoize (fn [n]
@@ -39,13 +38,10 @@
 
 (defn sum-max-of-subsets [cards k]
   (let [sorted (drop (dec k) (sort cards))
-        nck (nCks (dec k))
-        ]
-
+        nck (nCks (dec k))]
     (mod (reduce +'
                  (map * sorted nck))
-         1000000007
-         )))
+         1000000007)))
 
 (defn bigparse [s]
   (bigint (Integer. s)))
